@@ -1,0 +1,114 @@
+/* ==== border none */
+.b-none {
+    border-style: none;
+}
+
+/* ==== border groove */
+.b-groove {
+    border-style: groove;
+}
+
+.b-groove-hover:hover {
+    border-style: groove;
+}
+
+.b-groove-active:active {
+    border-style: groove;
+}
+
+.b-groove-focus:focus {
+    border-style: groove;
+}
+
+/* ==== border ridge */
+.b-ridge {
+    border-style: ridge;
+}
+
+.b-ridge-hover:hover {
+    border-style: ridge;
+}
+
+.b-ridge-active:active {
+    border-style: ridge;
+}
+
+.b-ridge-focus:focus {
+    border-style: ridge;
+}
+
+/* ==== border inset */
+.b-inset {
+    border-style: inset;
+}
+
+.b-inset-hover:hover {
+    border-style: inset;
+}
+
+.b-inset-active:active {
+    border-style: inset;
+}
+
+.b-inset-focus:focus {
+    border-style: inset;
+}
+
+/* ==== border outset */
+.b-outset {
+    border-style: outset;
+}
+
+.b-outset-hover:hover {
+    border-style: outset;
+}
+
+.b-outset-active:active {
+    border-style: outset;
+}
+
+.b-outset-focus:focus {
+    border-style: outset;
+}
+
+/* ==== border guard */
+.b-guard-left {
+    border-left-style: solid;
+    border-left-width: 10px;
+    border-left-color: grey;
+}
+
+.b-guard-right {
+    border-right-style: solid;
+    border-right-width: 10px;
+    border-right-color: grey;
+}
+
+.b-guard-top {
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: grey;
+}
+
+.b-guard-bottom {
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-color: grey;
+}
+
+/* ==== border size */
+.b-size-1 {
+    border-width: 1rem;
+}
+
+.b-size-2 {
+    border-width: 0.5rem;
+}
+
+.b-size-3 {
+    border-width: 0.3rem;
+}
+
+.b-size-4 {
+    border-width: 0.2rem;
+}

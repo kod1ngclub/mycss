@@ -1,0 +1,19 @@
+.t-center {
+    text-align: center;
+}
+
+.t-deco-none {
+    text-decoration: none;
+}
+
+.t-deco-none-hover:hover {
+    text-decoration: none;
+}
+
+.t-deco-underline {
+    text-decoration: underline;
+}
+
+.t-deco-underline-hover:hover {
+    text-decoration: underline;
+}

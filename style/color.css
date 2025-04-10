@@ -1,0 +1,23 @@
+.color-dark {
+    color: black;
+}
+
+.color-shadow {
+    color: grey;
+}
+
+.color-light {
+    color: whitesmoke;
+}
+
+.bcolor-dark {
+    background-color: black;
+}
+
+.bcolor-shadow {
+    background-color: grey;
+}
+
+.bcolor-light {
+    background-color: whitesmoke;
+}
