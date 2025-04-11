@@ -1,13 +1,33 @@
-.m-x {
+.m-auto {
+    margin: auto;
+}
+
+.m-x-1 {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.m-y-1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.m-x-2 {
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.m-y {
+.m-y-2 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.m-auto {
-    margin: auto;
+.m-x-3 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.m-y-3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
