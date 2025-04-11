@@ -1,39 +1,39 @@
-.body {
+.view-doc {
     width: 65%;
     margin: auto;
 }
 
-.side {
+.view-side {
     display: grid;
     grid-template-columns: 2fr 8fr;
 }
 
 @media all and (max-width: 600px) {
-    .body {
+    .view-doc {
         width: 95%;
     }
 
-    .side {
+    .view-side {
         grid-template-columns: 1fr;
     }
 }
 
 @media all and (min-width: 600px) and (max-width: 900px) {
-    .body {
+    .view-doc {
         width: 95%;
     }
 
-    .side {
+    .view-side {
         grid-template-columns: 1fr;
     }
 }
 
 @media all and (min-width: 900px) and (max-width: 1200px) {
-    .body {
+    .view-doc {
         width: 80%;
     }
 
-    .side {
+    .view-side {
         grid-template-columns: 3fr 7fr;
     }
 }
