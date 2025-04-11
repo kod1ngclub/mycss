@@ -38,11 +38,9 @@ FLEX_CSS = Cat("style/flex.css")
 GRID_CSS = Cat("style/grid.css")
 VIEW_CSS = Cat("style/view.css")
 
-COLOR_CSS = Cat("style/color.css")
-ACCENT_CSS = Cat("style/accent.css")
-
 FONT_CSS = Cat("style/font.css")
 TEXT_CSS = Cat("style/text.css")
+COLOR_CSS = Cat("style/color.css")
 
 MARGIN_CSS = Cat("style/margin.css")
 PADDING_CSS = Cat("style/padding.css")
@@ -53,15 +51,18 @@ OUTLINE_CSS = Cat("style/outline.css")
 entire = []
 
 entire.extend(MAIN_CSS)
+
 entire.extend(FLEX_CSS)
 entire.extend(GRID_CSS)
 entire.extend(VIEW_CSS)
+
 entire.extend(COLOR_CSS)
-entire.extend(ACCENT_CSS)
 entire.extend(FONT_CSS)
 entire.extend(TEXT_CSS)
+
 entire.extend(MARGIN_CSS)
 entire.extend(PADDING_CSS)
+
 entire.extend(BORDER_CSS)
 entire.extend(OUTLINE_CSS)
 
