@@ -21,3 +21,15 @@
 .bcolor-light {
     background-color: whitesmoke;
 }
+
+.acolor-dark {
+    accent-color: black;
+}
+
+.acolor-shadow {
+    accent-color: grey;
+}
+
+.acolor-light {
+    accent-color: whitesmoke;
+}
