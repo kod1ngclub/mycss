@@ -1,8 +1,23 @@
 from pathlib import Path
 
-def Cat(path):
-    file: Path = Path(path)
+def Echo(text):
+    print(f"| {text}")
+
+def DuSize(path):
+    file = Path(path)
     if not file.is_file(): raise RuntimeError(f"Fail to catch file {path}")
+
+    size_b = file.stat().st_size
+    size_kb = size_b / 1024
+
+    rep = f"{round(size_kb, 2)}kb"
+    return rep
+
+def Cat(path):
+    file = Path(path)
+    if not file.is_file(): raise RuntimeError(f"Fail to catch file {path}")
+
+    Echo(f"Catched file {path} [{DuSize(path)}]")
     
     liens = []
     with open(path, "r") as target:
@@ -13,6 +28,8 @@ def Cat(path):
 def Touch(path, data):
     with open(path, "w") as target:
         for line in data: target.write(line)
+    
+    Echo(f"Created file {path}")
 
 def Unindent(data):
     return [line.lstrip() for line in data]
@@ -66,7 +83,11 @@ entire.extend(PADDING_CSS)
 entire.extend(BORDER_CSS)
 entire.extend(OUTLINE_CSS)
 
-Touch("my.css", Pipe(entire, [
+OUT = "my.css"
+
+Touch(OUT, Pipe(entire, [
     Unnewline,
     Unindent
 ]))
+
+Echo(f"Done! [{DuSize(OUT)}]")
