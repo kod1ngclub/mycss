@@ -45,28 +45,28 @@ python3 make.py
 ### Grid
 
 - `grid4`
-  - Over 1200px, split by 4
-  - From 900px to 1200px, split by 3
-  - From 600px to 900px, split by 2
-  - Under 600px, split by 1
+  - over 1200px, split by 4
+  - from 900px to 1200px, split by 3
+  - from 600px to 900px, split by 2
+  - under 600px, split by 1
 - `grid3`
-  - Over 1200px, split by 3
-  - From 900px to 1200px, split by 2
-  - From 600px to 900px, split by 1
-  - Under 600px, split by 1
+  - over 1200px, split by 3
+  - from 900px to 1200px, split by 2
+  - from 600px to 900px, split by 1
+  - under 600px, split by 1
 
 ### View
 
 - `view-doc`
-  - Over 1200px, width `65%`
-  - From 900px to 1200px, width `80%`
-  - From 600px to 900px, width `95%`
-  - Under 600px, width `95%`
+  - over 1200px, width `65%`
+  - from 900px to 1200px, width `80%`
+  - from 600px to 900px, width `95%`
+  - under 600px, width `95%`
 - `view-side`
-  - Over 1200px, split by 2 to 8
-  - From 900px to 1200px, split by 3 to 7
-  - From 600px to 900px, split by 1 (vertically aligned)
-  - Under 600px, split by 1 (vertically aligned)
+  - over 1200px, split by 2 to 8
+  - from 900px to 1200px, split by 3 to 7
+  - from 600px to 900px, split by 1 (vertically aligned)
+  - under 600px, split by 1 (vertically aligned)
 
 ### Font
 
@@ -80,25 +80,25 @@ python3 make.py
 
 - `b-none`
 - `b-groove` border-style as groove
-- `b-groove-hover` On hover, border-style as groove
-- `b-groove-active` On active, border-style as groove
-- `b-groove-focus` On focus, border-style as groove
+- `b-groove-hover` on hover, border-style as groove
+- `b-groove-active` on active, border-style as groove
+- `b-groove-focus` on focus, border-style as groove
 - `b-ridge` border-style as ridge
-- `b-ridge-hover` On hover, border-style as ridge
-- `b-ridge-active` On active, border-style as ridge
-- `b-ridge-focus` On focus, border-style as ridge
+- `b-ridge-hover` on hover, border-style as ridge
+- `b-ridge-active` on active, border-style as ridge
+- `b-ridge-focus` on focus, border-style as ridge
 - `b-inset` border-style as inset
-- `b-inset-hover` On hover, border-style as inset
-- `b-inset-active` On active, border-style as inset
-- `b-inset-focus` On focus, border-style as inset
+- `b-inset-hover` on hover, border-style as inset
+- `b-inset-active` on active, border-style as inset
+- `b-inset-focus` on focus, border-style as inset
 - `b-outset` border-style as outset
-- `b-outset-hover` On hover, border-style as outset
-- `b-outset-active` On active, border-style as outset
-- `b-outset-focus` On focus, border-style as outset
-- `b-guard-left` Add border-like guard at left
-- `b-guard-right` Add border-like guard at right
-- `b-guard-top` Add border-like guard at top
-- `b-guard-bottom` Add border-like guard at bottom
+- `b-outset-hover` on hover, border-style as outset
+- `b-outset-active` on active, border-style as outset
+- `b-outset-focus` on focus, border-style as outset
+- `b-guard-left` add border-like guard at left
+- `b-guard-right` add border-like guard at right
+- `b-guard-top` add border-like guard at top
+- `b-guard-bottom` add border-like guard at bottom
 - `b-size-1` border-size as `1rem`
 - `b-size-2` border-size as `0.5rem`
 - `b-size-3` border-size as `0.2rem`
@@ -119,4 +119,4 @@ python3 make.py
 
 - `outline`
   - no outline
-  - Even on focus, no outline
+  - even on focus, no outline
